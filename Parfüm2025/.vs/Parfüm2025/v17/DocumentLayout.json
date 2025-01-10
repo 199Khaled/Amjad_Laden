@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parf\u00FCm2025\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{874254B8-1C9E-46A5-B811-30843F28D8A8}|Parf\u00FCm2025.csproj|C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parf\u00FCm2025\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874254B8-1C9E-46A5-B811-30843F28D8A8}|Parf\u00FCm2025.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874254B8-1C9E-46A5-B811-30843F28D8A8}|Parf\u00FCm2025.csproj|c:\\users\\hamssa\\desktop\\ali_laden\\parf\u00FCm2025\\frmparf\u00FCmansicht.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{874254B8-1C9E-46A5-B811-30843F28D8A8}|Parf\u00FCm2025.csproj|solutionrelative:frmparf\u00FCmansicht.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874254B8-1C9E-46A5-B811-30843F28D8A8}|Parf\u00FCm2025.csproj|C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parf\u00FCm2025\\frmaddupdatenewperfum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{874254B8-1C9E-46A5-B811-30843F28D8A8}|Parf\u00FCm2025.csproj|solutionrelative:frmaddupdatenewperfum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874254B8-1C9E-46A5-B811-30843F28D8A8}|Parf\u00FCm2025.csproj|C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parf\u00FCm2025\\frmparf\u00FCmansicht.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874254B8-1C9E-46A5-B811-30843F28D8A8}|Parf\u00FCm2025.csproj|solutionrelative:frmparf\u00FCmansicht.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 163,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmAddUpdateNewPerfum.cs [Entwurf]",
+              "DocumentMoniker": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parf\u00FCm2025\\frmAddUpdateNewPerfum.cs",
+              "RelativeDocumentMoniker": "frmAddUpdateNewPerfum.cs",
+              "ToolTip": "C:\\Users\\Hamssa\\Desktop\\Parf\u00FCm2025\\frmAddUpdateNewPerfum.cs [Entwurf]",
+              "RelativeToolTip": "..\\..\\Parf\u00FCm2025\\frmAddUpdateNewPerfum.cs [Entwurf]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T22:09:58.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmParf\u00FCmAnsicht.cs",
+              "DocumentMoniker": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parf\u00FCm2025\\frmParf\u00FCmAnsicht.cs",
+              "RelativeDocumentMoniker": "frmParf\u00FCmAnsicht.cs",
+              "ToolTip": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parf\u00FCm2025\\frmParf\u00FCmAnsicht.cs",
+              "RelativeToolTip": "frmParf\u00FCmAnsicht.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T20:43:34.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmParf\u00FCmAnsicht.cs [Entwurf]",
+              "DocumentMoniker": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parf\u00FCm2025\\frmParf\u00FCmAnsicht.cs",
+              "RelativeDocumentMoniker": "frmParf\u00FCmAnsicht.cs",
+              "ToolTip": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parf\u00FCm2025\\frmParf\u00FCmAnsicht.cs [Entwurf]",
+              "RelativeToolTip": "frmParf\u00FCmAnsicht.cs [Entwurf]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T20:43:25.641Z",
+              "EditorCaption": " [Entwurf]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parf\u00FCm2025\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parf\u00FCm2025\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T11:07:44.658Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 44,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

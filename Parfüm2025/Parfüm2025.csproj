@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{874254B8-1C9E-46A5-B811-30843F28D8A8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Parfüm2025</RootNamespace>
+    <AssemblyName>Parfüm2025</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsDruckerService.cs" />
+    <Compile Include="clsGlobaleKlasse.cs" />
+    <Compile Include="frmAddUpdateRechnung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddUpdateRechnung.Designer.cs">
+      <DependentUpon>frmAddUpdateRechnung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDruckvorschau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDruckvorschau.Designer.cs">
+      <DependentUpon>frmDruckvorschau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHaupBildschrimAnsicht.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHaupBildschrimAnsicht.Designer.cs">
+      <DependentUpon>frmHaupBildschrimAnsicht.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrAddUpdatePerson.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrAddUpdatePerson.Designer.cs">
+      <DependentUpon>ctrAddUpdatePerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddUpdateNeueKunde.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddUpdateNeueKunde.Designer.cs">
+      <DependentUpon>frmAddUpdateNeueKunde.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddUpdateNeueMitarbeiter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddUpdateNeueMitarbeiter.Designer.cs">
+      <DependentUpon>frmAddUpdateNeueMitarbeiter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddUpdateNeueParfümMenge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddUpdateNeueParfümMenge.Designer.cs">
+      <DependentUpon>frmAddUpdateNeueParfümMenge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddUpdateNeueUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddUpdateNeueUser.Designer.cs">
+      <DependentUpon>frmAddUpdateNeueUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddUpdateRechnungsDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddUpdateRechnungsDetails.Designer.cs">
+      <DependentUpon>frmAddUpdateRechnungsDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKundeListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKundeListe.Designer.cs">
+      <DependentUpon>frmKundeListe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEinkaufsDatenListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEinkaufsDatenListe.Designer.cs">
+      <DependentUpon>frmEinkaufsDatenListe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKundenSucheAnsicht.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKundenSucheAnsicht.Designer.cs">
+      <DependentUpon>frmKundenSucheAnsicht.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKundeSucheFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKundeSucheFilter.Designer.cs">
+      <DependentUpon>frmKundeSucheFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLizenzEigabeBildschirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLizenzEigabeBildschirm.Designer.cs">
+      <DependentUpon>frmLizenzEigabeBildschirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogginScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogginScreen.Designer.cs">
+      <DependentUpon>frmLogginScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMitarbeiterListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMitarbeiterListe.Designer.cs">
+      <DependentUpon>frmMitarbeiterListe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOverly.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOverly.Designer.cs">
+      <DependentUpon>frmOverly.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmParfümAnsicht.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmParfümAnsicht.Designer.cs">
+      <DependentUpon>frmParfümAnsicht.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddUpdateNewPerfum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddUpdateNewPerfum.Designer.cs">
+      <DependentUpon>frmAddUpdateNewPerfum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPreisKategorie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPreisKategorie.Designer.cs">
+      <DependentUpon>frmPreisKategorie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPreisKategorieListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPreisKategorieListe.Designer.cs">
+      <DependentUpon>frmPreisKategorieListe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRechnungsDetailsListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRechnungsDetailsListe.Designer.cs">
+      <DependentUpon>frmRechnungsDetailsListe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserListe.Designer.cs">
+      <DependentUpon>frmUserListe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRechnungenListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRechnungenListe.Designer.cs">
+      <DependentUpon>frmRechnungenListe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAddUpdateRechnung.resx">
+      <DependentUpon>frmAddUpdateRechnung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDruckvorschau.resx">
+      <DependentUpon>frmDruckvorschau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHaupBildschrimAnsicht.resx">
+      <DependentUpon>frmHaupBildschrimAnsicht.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrAddUpdatePerson.resx">
+      <DependentUpon>ctrAddUpdatePerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddUpdateNeueKunde.resx">
+      <DependentUpon>frmAddUpdateNeueKunde.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddUpdateNeueMitarbeiter.resx">
+      <DependentUpon>frmAddUpdateNeueMitarbeiter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddUpdateNeueParfümMenge.resx">
+      <DependentUpon>frmAddUpdateNeueParfümMenge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddUpdateNeueUser.resx">
+      <DependentUpon>frmAddUpdateNeueUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddUpdateRechnungsDetails.resx">
+      <DependentUpon>frmAddUpdateRechnungsDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKundeListe.resx">
+      <DependentUpon>frmKundeListe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEinkaufsDatenListe.resx">
+      <DependentUpon>frmEinkaufsDatenListe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKundenSucheAnsicht.resx">
+      <DependentUpon>frmKundenSucheAnsicht.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKundeSucheFilter.resx">
+      <DependentUpon>frmKundeSucheFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLizenzEigabeBildschirm.resx">
+      <DependentUpon>frmLizenzEigabeBildschirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogginScreen.resx">
+      <DependentUpon>frmLogginScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMitarbeiterListe.resx">
+      <DependentUpon>frmMitarbeiterListe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOverly.resx">
+      <DependentUpon>frmOverly.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmParfümAnsicht.resx">
+      <DependentUpon>frmParfümAnsicht.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddUpdateNewPerfum.resx">
+      <DependentUpon>frmAddUpdateNewPerfum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPreisKategorie.resx">
+      <DependentUpon>frmPreisKategorie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPreisKategorieListe.resx">
+      <DependentUpon>frmPreisKategorieListe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRechnungsDetailsListe.resx">
+      <DependentUpon>frmRechnungsDetailsListe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserListe.resx">
+      <DependentUpon>frmUserListe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRechnungenListe.resx">
+      <DependentUpon>frmRechnungenListe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Busnisse_Layer\Busnisse_Layer.csproj">
+      <Project>{ef81815d-4a86-4a1c-a36f-8b98e229d62d}</Project>
+      <Name>Busnisse_Layer</Name>
+    </ProjectReference>
+    <ProjectReference Include="clsHilfsMethoden\HilfsMethoden.csproj">
+      <Project>{0461c194-ce2d-40a6-a75e-fdf9a29e6383}</Project>
+      <Name>HilfsMethoden</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\details.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\details 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Bilder\pexels-valeriya-1961795.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Bilder\Vorderseite.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\plus_10021331.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\refresh_5791276.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\delete_5953478 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\update_7411697.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\businessman_1478880.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\new-employee_13271134.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\file_15112322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\tester_4157277.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\users 64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Users 2 400.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Users 2 64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\People 64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\sign_out 32 -2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\perfume_1241933.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\store_5622610.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\maths_14052894.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\add-user_492527.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\recycle_17163818.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\unemployed_9772949.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\PersonDetails 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Delete 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\email_15254895.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\store_869636.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="itext7">
+      <Version>9.0.0</Version>
+    </PackageReference>
+    <PackageReference Include="iTextSharp">
+      <Version>5.5.13.4</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies">
+      <Version>1.0.3</Version>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications">
+      <Version>7.1.3</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Windows.SDK.Contracts">
+      <Version>10.0.26100.1742</Version>
+    </PackageReference>
+    <PackageReference Include="System.Runtime.WindowsRuntime.UI.Xaml">
+      <Version>5.0.0-preview.5.20278.1</Version>
+    </PackageReference>
+    <PackageReference Include="System.ValueTuple">
+      <Version>4.5.0</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\perfume_5029351.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\computer_12006144.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\entry_15209275.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\selling_6428694.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Bilder\pexels-anis-salmani-208342252-11711830.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Add New User 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\setting_11172021.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\interface_15123397.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\paint-palette_16163509.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Bilder\A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Bilder\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Bilder\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\pdf-file-format_6795752.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\bill_1052856.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo-Black[76143].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alowidat Final Logo-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alowidat Final Logo-021.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alowidat Final Logo-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\555.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Abed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Haupbildschirm.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
