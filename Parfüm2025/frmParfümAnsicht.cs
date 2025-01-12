@@ -412,35 +412,73 @@ namespace Parfüm2025
         {
             string spalteName = cbFilterBei.SelectedItem.ToString();
             string filterwert = txtFilterWert.Text;
-            string[] wort = filterwert.Split(' ');
 
             lock (_filterLock)
             {
                 if (cbFilterBei.SelectedIndex != -1)
                 {
-                    if (!string.IsNullOrEmpty(filterwert) )
+                    if (!string.IsNullOrEmpty(filterwert))
                     {
-                        if(spalteName == "ParfümNummer")
+                        if (spalteName == "ParfümNummer")
                         {
                             _bindingSourceParfüm.Filter = $"{spalteName} = {filterwert}";
                         }
-                        else
+                        else if (spalteName == "Name")
                         {
-                            if (wort.Length == 1)
-                            {
-                                _bindingSourceParfüm.Filter = $" {spalteName} Like '%{wort[0]}%'";
-                            }
-                            else if(wort.Length > 1)
-                            {
-                                _bindingSourceParfüm.Filter = $"{spalteName} Like '%{wort[0]}%' OR {spalteName} Like '%{wort[1]}%'";
-                            }
+                            _FilterByName(filterwert, spalteName);
                         }
+                        else if (spalteName == "Marke")
+                        {
+                            _FilterByMarke(filterwert, spalteName);
+                        }
+                        else if (spalteName == "Kategorie" || spalteName == "Jahreszeiten" || spalteName == "DuftRichtung")
+                        {
+                            _bindingSourceParfüm.Filter = $"{spalteName} Like '{filterwert}%'";
+                        }
+                        else
+                            _bindingSourceParfüm.Filter = string.Empty;
                     }
-                    else
-                        _bindingSourceParfüm.Filter = string.Empty;
                 }
             }
             _MarkiereParfümZeilen();
+        }
+        private void _FilterByName(string filterwert, string spalteName)
+        {
+            DataTable dt = clsParfüm.GetParfuemByName(filterwert);
+            if (dt == null || dt.Rows.Count == 0)
+            {
+                _bindingSourceParfüm.Filter = string.Empty;
+            }
+            else
+            {
+                List<string> filterdValue = new List<string>();
+                foreach (DataRow row in dt.Rows)
+                {
+                    string name = row["Name"].ToString();
+                    filterdValue.Add($"'{name.Replace("'", "''")}'"); //if the word has a single quote, it will be replaced with two single quotes
+                }
+                string filterString = string.Join(",", filterdValue);
+                _bindingSourceParfüm.Filter = $"{spalteName} IN ({filterString})";
+            }
+        }
+        private void _FilterByMarke(string filterwert, string spalteName)
+        {
+            DataTable dt = clsParfüm.GetParfuemByMarke(filterwert);
+            if (dt == null || dt.Rows.Count == 0)
+            {
+                _bindingSourceParfüm.Filter = string.Empty;
+            }
+            else
+            {
+                List<string> filterdValue = new List<string>();
+                foreach (DataRow row in dt.Rows)
+                {
+                    string marke = row["Marke"].ToString();
+                    filterdValue.Add($"'{marke.Replace("'", "''")}'"); //if the word has a single quote, it will be replaced with two single quotes
+                }
+                string filterString = string.Join(",", filterdValue);
+                _bindingSourceParfüm.Filter = $"{spalteName} IN ({filterString})";
+            }
         }
         private void txtFilterWert_TextChanged(object sender, EventArgs e)
         {

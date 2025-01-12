@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj": {}
+    "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj": {
+    "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj",
+        "projectUniqueName": "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj",
         "projectName": "clsHilfsMethoden",
-        "projectPath": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj",
+        "projectPath": "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj",
         "packagesPath": "C:\\Users\\Hamssa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\clsHilfsMethoden\\obj\\",
+        "outputPath": "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\clsHilfsMethoden\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "UsingMicrosoftNETSdk": false,

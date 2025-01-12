@@ -95,7 +95,7 @@ namespace Parfüm2025
                 frm.ShowDialog();
 
                 // Login-Fenster wieder anzeigen (nach Schließen des Hauptfensters)
-                this.Show();
+                this.Close();
             }
             catch (Exception ex)
             {

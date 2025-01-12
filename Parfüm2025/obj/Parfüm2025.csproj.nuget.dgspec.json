@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\Parfüm2025.csproj": {}
+    "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\Parfüm2025.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj": {
+    "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj",
+        "projectUniqueName": "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj",
         "projectName": "Busnisse_Layer",
-        "projectPath": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj",
+        "projectPath": "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\Data_Layer\\Data_Layer.csproj": {
-                "projectPath": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\Data_Layer\\Data_Layer.csproj"
+              "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\Data_Layer\\Data_Layer.csproj": {
+                "projectPath": "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\Data_Layer\\Data_Layer.csproj"
               }
             }
           }
@@ -24,14 +24,14 @@
         "net48": {}
       }
     },
-    "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj": {
+    "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj",
+        "projectUniqueName": "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj",
         "projectName": "clsHilfsMethoden",
-        "projectPath": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj",
+        "projectPath": "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj",
         "packagesPath": "C:\\Users\\Hamssa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\clsHilfsMethoden\\obj\\",
+        "outputPath": "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\clsHilfsMethoden\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "UsingMicrosoftNETSdk": false,
@@ -100,17 +100,17 @@
         }
       }
     },
-    "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\Data_Layer\\Data_Layer.csproj": {
+    "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\Data_Layer\\Data_Layer.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\Data_Layer\\Data_Layer.csproj",
+        "projectUniqueName": "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\Data_Layer\\Data_Layer.csproj",
         "projectName": "Data_Layer",
-        "projectPath": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\Data_Layer\\Data_Layer.csproj",
+        "projectPath": "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\Data_Layer\\Data_Layer.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj": {
-                "projectPath": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj"
+              "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj": {
+                "projectPath": "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj"
               }
             }
           }
@@ -120,14 +120,14 @@
         "net48": {}
       }
     },
-    "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\Parfüm2025.csproj": {
+    "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\Parfüm2025.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\Parfüm2025.csproj",
+        "projectUniqueName": "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\Parfüm2025.csproj",
         "projectName": "Parfüm2025",
-        "projectPath": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\Parfüm2025.csproj",
+        "projectPath": "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\Parfüm2025.csproj",
         "packagesPath": "C:\\Users\\Hamssa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\obj\\",
+        "outputPath": "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "UsingMicrosoftNETSdk": false,
@@ -149,11 +149,11 @@
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj": {
-                "projectPath": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj"
+              "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj": {
+                "projectPath": "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj"
               },
-              "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj": {
-                "projectPath": "C:\\Users\\Hamssa\\Desktop\\Ali_Laden\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj"
+              "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj": {
+                "projectPath": "C:\\Users\\Hamssa\\Desktop\\Amjad_Laden\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj"
               }
             }
           }

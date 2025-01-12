@@ -125,5 +125,13 @@ namespace Busnisse_Layer
         {
             return clsParfümDatenzugriff._IstParfümNummerVergeben(parfümNummer);
         }
+        public static DataTable GetParfuemByName(string filterdName)
+        {
+            return clsParfümDatenzugriff.GetAllParfuemByName(filterdName);
+        }
+        public static DataTable GetParfuemByMarke(string filterdMarke)
+        {
+            return clsParfümDatenzugriff.GetAllParfuemByMarke(filterdMarke);
+        }
     }
 }

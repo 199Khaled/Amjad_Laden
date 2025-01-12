@@ -47,7 +47,71 @@ namespace Data_Layer
 
             return dt;
         }
+        public static DataTable GetAllParfuemByName(string filterdName)
+        {
+            DataTable dt = new DataTable(); ;
 
+            string abfrage = @"select *
+                             From Parfüm_Kopie 
+                              Where Name Like @filterdNameWithWildcard OR Freetext(Name, @filterdName) ";
+
+            using (SqlConnection connection = new SqlConnection(ConnectionString))
+            {
+                try
+                {
+                    using (SqlCommand command = new SqlCommand(abfrage, connection))
+                    {
+                        command.Parameters.AddWithValue("@filterdName", filterdName);
+                        command.Parameters.AddWithValue("@filterdNameWithWildcard", "%" + filterdName + "%");
+                        connection.Open();
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            if (reader.HasRows)
+                                dt.Load(reader);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+            }
+
+            return dt;
+        }
+        public static DataTable GetAllParfuemByMarke(string filterdMarke)
+        {
+            DataTable dt = new DataTable(); ;
+
+            string abfrage = @"select *
+                             From Parfüm_Kopie 
+                              Where Marke Like @filterdMarkeWithWildcard OR Freetext(Marke, @filterdMarke)";
+
+            using (SqlConnection connection = new SqlConnection(ConnectionString))
+            {
+                try
+                {
+                    using (SqlCommand command = new SqlCommand(abfrage, connection))
+                    {
+                        command.Parameters.AddWithValue("@filterdMarke", filterdMarke);
+                        command.Parameters.AddWithValue("@filterdMarkeWithWildcard", "%" + filterdMarke + "%");
+
+                        connection.Open();
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            if (reader.HasRows)
+                                dt.Load(reader);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+            }
+
+            return dt;
+        }
         public static DataTable GetAllHerrenParfüms()
         {
             DataTable dt = new DataTable(); ;
