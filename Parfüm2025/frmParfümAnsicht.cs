@@ -438,9 +438,13 @@ namespace Parfüm2025
                         else
                             _bindingSourceParfüm.Filter = string.Empty;
                     }
+                    else
+                        _bindingSourceParfüm.Filter = string.Empty;
                 }
+                
             }
-            _MarkiereParfümZeilen();
+   
+        _MarkiereParfümZeilen();
         }
         private void _FilterByName(string filterwert, string spalteName)
         {
